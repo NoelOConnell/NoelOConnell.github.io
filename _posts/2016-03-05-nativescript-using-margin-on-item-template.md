@@ -34,6 +34,7 @@ Here's my css styling with the margin-bottom on each item in the list. All other
 {% endraw %}
 {% endhighlight %}
 
+<em>margin-bottom not being applied to each row</em>
 <img src="/img/posts/margin-not-working.png" style="width: 350px;">
 
 ### The solution
@@ -58,4 +59,7 @@ It seems as though margin will not work if it's being applied to the first eleme
 {% endraw %}
 {% endhighlight %}
 
+<em>margin-bottom working now since it's no longer the first child of itemTemplate</em>
 <img src="/img/posts/margin-working.png" style="width: 350px;">
+
+Hope this helps anybody who ran into the same problem.
