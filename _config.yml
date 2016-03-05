@@ -1,0 +1,21 @@
+# Site settings
+title: 'Noel O Connell'
+email: noeloconnell88@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Articles on JavaScript, Angular, React and HTML5
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://noeloconnell.github.io/" # the base hostname & protocol for your site
+twitter_username: noel_o_c
+github_username:  noeloconnell
+exclude: ['node_modules']
+paginate: 10
+paginate_path: "/page:num/"
+permalink: /:year/:month/:title
+sass:
+  compressed: true
+
+# Build settings
+markdown: kramdown
+
+# Gems
+gems: [jekyll-paginate]
