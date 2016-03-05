@@ -38,7 +38,7 @@
   text-align: center;
   color: #aaa;
   a {
-    color: #fff;
+    color: $yellow;
   }
   &__img {
     img {
@@ -75,7 +75,7 @@
     }
   }
   a {
-    color: #fff;
+    color: $yellow;
     text-decoration: none;
     display: block;
     padding: 30px 15px;
@@ -166,7 +166,7 @@
     color: #b1b1b1;
     font-style: italic;
     a {
-      color: $green;
+      color: $blue;
     }
   }
   &__button {

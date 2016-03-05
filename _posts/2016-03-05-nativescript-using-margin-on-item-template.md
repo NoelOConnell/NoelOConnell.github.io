@@ -46,7 +46,7 @@ It seems as though margin will not work if it's being applied to the first eleme
 <list-view items="{{jobList}}" row="1" colSpan="2" separatorColor="transparent">
     <list-view.itemTemplate>
         <stack-layout>
-            <!-- .list-item margin-bottom not working -->
+            <!-- .list-item margin-bottom working after wrapping it with stack-layout -->
             <grid-layout columns="*, auto" rows="auto, auto" class="list-item">
                 <Label row="0" text="{{ name }}" class="list-title" />
                 <Label row="1" text="{{ location }}" class="list-subtitle" />
