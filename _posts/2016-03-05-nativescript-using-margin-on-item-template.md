@@ -5,11 +5,11 @@ title: Getting margin to work on item-template with Android
 path: 2016-03-05-nativescript-using-margin-on-item-template.md
 ---
 
-Recently while developing a NativeScript Android app, I wanted to create a card style list-view with a margin between each row to give it that kinda material design look.
+Recently while developing a NativeScript Android app, I wanted to create a card style list-view with a margin between each row to give it a material design look.
 Since NativeScript uses <a href="https://docs.nativescript.org/ui/styling">CSS</a> for it's styling, I presumed adding margin to each item in the list would do the trick.
 
 ### The problem
-Here's my css styling with the margin-bottom on each item in the list. All other css properties took effect just not margin-bottom.
+Here's my CSS styling with the margin-bottom on each item in the list. All other CSS properties took effect just not margin-bottom.
 
 {% highlight css %}
 .list-item {
@@ -40,7 +40,7 @@ Here's my css styling with the margin-bottom on each item in the list. All other
 
 ### The solution
 
-After spending sometime scratching my head and trying various solutions I found a fix. By wrapping my grid-layout with a stack-layout margin took effect.
+After spending some time scratching my head and trying various solutions I found a fix. By wrapping my grid-layout with a stack-layout, margin took effect.
 It seems as though margin will not work if it's being applied to the first element after list-view.itemTemplate.
 
 {% highlight XML %}
@@ -64,6 +64,5 @@ It seems as though margin will not work if it's being applied to the first eleme
 <br>
 <em>margin-bottom working now since it's no longer the first child of itemTemplate</em>
 
-<br>
 <br>
 Hope this helps anybody who ran into the same problem.
