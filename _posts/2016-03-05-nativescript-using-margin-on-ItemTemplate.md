@@ -1,8 +1,8 @@
 ---
 layout: post
-permalink: /joining-telerik-as-developer-advocate/
-title: Joining Telerik as a Developer Advocate
-path: 2016-02-28-joining-telerik-as-developer-advocate.md
+permalink: /2016-03-05-nativescript-using-margin-on-ItemTemplate/
+title: Getting margin to work on ItemTemplate with Android
+path: 2016-03-05-nativescript-using-margin-on-ItemTemplate.md
 ---
 
 Tuesday morning (23rd Feb) [I set off](https://twitter.com/toddmotto/status/702054975451561984) for London Heathrow to fly to Austin, Texas to start my first week at [Telerik](http://telerik.com) as a Developer Advocate.
